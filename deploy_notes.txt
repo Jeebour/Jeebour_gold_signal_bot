@@ -1,0 +1,12 @@
+PHONE-ONLY SETUP
+
+1. Keep the BotFather token private.
+2. Create a Twelve Data account/API key (or replace the data adapter with another market-data provider).
+3. Put the code on a Python cloud host.
+4. Add the environment variables from .env.example.
+5. Start the bot.
+6. Open your Telegram bot and press /start.
+7. Send /chatid if you need the private chat ID.
+8. Set TELEGRAM_CHAT_ID to that ID and restart.
+
+The bot is signal-only. It never calls MT5 order_send and cannot open trades.
